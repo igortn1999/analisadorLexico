@@ -1,0 +1,7 @@
+Numero		 - Valor: 1
+Operador		 - Valor: SOMA
+Pontuacao		 - Valor: ABRE APARENTESES
+Numero		 - Valor: 2
+Operador		 - Valor: MULTIPLICACAO
+Numero		 - Valor: 857
+Pontuacao		 - Valor: FECHA PARENTESES

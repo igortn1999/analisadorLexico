@@ -59,7 +59,7 @@ void inicializa_analise(char *prog){
 	//void inicializa_analise(entrada){
     //quando se passa un vetor como parametro para uma função só pelo nome, se passa o endereço do indice zero, que inicia o vetor
     codigo=prog;
-    strlen(codigo);
+    tamanho = strlen(codigo);
     pos=0;
 }
 
@@ -160,7 +160,7 @@ Token *proximo_token(Token *tok){
 		tok= NULL;
 	}
 	
-	return tok;	
+	return tok;
 	
 }
 
@@ -247,6 +247,9 @@ int main(void){
         puts("Nao foi possivel abrir\n\n");
         exit(1);
     }
+
+	fluxoTokens=fopen("saida.txt","w");
+	tabela=fopen("tabela.txt","w");
     
     printf("Analisador Lexico do 4ECA\n\n");
     printf("Lendo arquivo...\n");
@@ -264,7 +267,7 @@ int main(void){
 
     inicializa_analise(entrada);
 
-    proximo_token(entrada);
+    //proximo_token(entrada);
     while(proximo_token(&tok)!=NULL){
         imprime_token(&tok, fluxoTokens);
     }

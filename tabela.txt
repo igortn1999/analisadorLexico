@@ -1,0 +1,21 @@
+
+E1
+ TOK: PONT	Lex: FECHA PARENTESES	Ocor: L2 C3
+
+E2
+ TOK: NUM	Lex: 857	Ocor: L2 C3
+
+E3
+ TOK: OP	Lex: MULTIPLICACAO	Ocor: L2 C3
+
+E4
+ TOK: NUM	Lex: 2	Ocor: L2 C3
+
+E5
+ TOK: PONT	Lex: ABRE APARENTESES	Ocor: L2 C3
+
+E6
+ TOK: OP	Lex: SOMA	Ocor: L2 C3
+
+E7
+ TOK: NUM	Lex: 1	Ocor: L2 C3
